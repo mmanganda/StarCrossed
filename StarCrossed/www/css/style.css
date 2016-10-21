@@ -1,0 +1,232 @@
+/* Empty. Add your own CSS if you like */
+.cat-overlay {
+    background-image: -webkit-linear-gradient(top, transparent 0%, #000 100%);
+    background-image: -o-linear-gradient(top, transparent 0%, #000 100%);
+    background-image: linear-gradient(to bottom, transparent 0%, #000 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#FF000000', GradientType=0);
+    opacity: 0.4;
+    bottom: 0; left: 0; opacity: 0.3; position: absolute; right: 0; top: 50%;
+    z-index: 2;
+}
+
+.img-circle {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    width: 80%;
+}
+.img-circle::after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 100%;
+    width: 100%;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(51,51,51,1);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(51,51,51,1);
+    box-shadow: 4px 4px 5px 0px rgba(51,51,51,1);
+}
+.img-circle div {
+    color: #799b9d;
+    float: left;
+    line-height: 1em;
+    margin-top: -0.5em;
+    padding-top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.poem {
+    width: 25%;
+    margin: 0 35% 0 40%;
+}
+
+.left-15-50 {
+    position: relative; 
+    left: 0;
+    width: 50%;
+    padding-left: 10%;
+}
+
+.left-50-80 {
+    position: relative; 
+    left: 0;
+    width: 80%;
+    padding-left: 50%;
+}
+
+.story-block-gold {
+    margin: 0 10% 0 10%; 
+    width: 80%;
+    padding: 5%;
+    border: 2px solid #d1a119;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.reverse-story {
+    color: white;
+    margin: 0 15% 0 15%; 
+    width: 70%;
+    padding: 2%;
+    background-color: #333333;
+}
+.reverse-story p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.red-story {
+    color: white;
+    margin: 0 10% 0 10%; 
+    width: 80%;
+    padding: 2%;
+    background-color: darkred;
+}
+.red-story p {
+    color: white;
+}
+
+.polaroid {
+    padding: 10px 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.polaroid img {
+    position: relative;
+    padding: 6px 8px 12px 8px;
+    background: #eee6d8;
+    background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    /*give the Polaroids a small drop shadow*/ 
+        -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+        -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+
+    /***Rotate the images 2 degrees anti-clockwise***/ 
+    -webkit-transform:rotate(-2deg); 
+    -moz-transform: rotate(-2deg); 
+    -o-transform: rotate(-2deg); 
+    -ms-transform: rotate(-2deg); 
+    transform: rotate(-2deg); 
+}
+
+
+
+
+
+
+.ch-list {
+    margin-left: 15%;
+    padding-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    background-color: #fcb6ff;
+    background: url(../img/paper-pink.jpg);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(128,128,128,1);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(128,128,128,1);
+    box-shadow: 4px 4px 5px 0px rgba(128,128,128,1);
+}
+
+.ch-list ul li {
+    list-style: square;
+}
+
+.ch-section{
+    text-align:center;
+}
+.ch-left {
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid #f2c71f;
+    margin: 0px 50px 5px 10px;
+    padding: 10px 10px 30px 30px;
+    text-align: left;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(128,128,128,1);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(128,128,128,1);
+    box-shadow: 4px 4px 5px 0px rgba(128,128,128,1);
+
+}
+.ch-left.first {
+    background: url(../img/i-l.png) no-repeat left top;
+    background-position: -5% 0px;
+    background-color: #fff;
+    border-radius: 0 15px 15px 15px;
+    margin: 10px 50px 2px 10px;
+    padding: 30px 10px 30px 30px;
+    text-align: left;
+}
+
+.ch-right {
+    position: relative;
+    border: 1px solid #ff6a00;
+    background-color: #fff;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px 30px 30px 10px;
+    margin: 0px 10px 2px 50px;
+    text-align: right;
+    -webkit-box-shadow: 0px 2px 3px 2px rgba(128,128,128,1);
+    -moz-box-shadow: 0px 2px 3px 2px rgba(128,128,128,1);
+    box-shadow: 0px 2px 3px 2px rgba(128,128,128,1);
+
+}
+.ch-right.first {
+    background: url(../img/i-r.png) no-repeat right top;
+    background-position: 105% 0px;
+    background-color: #fff;
+    border-radius: 15px 0px 15px 15px;
+    margin-top: 10px;
+    padding: 30px 30px 30px 10px;
+}
+.ch-caption {
+    padding: 30px 50px 30px 50px;
+    font-style: italic;
+    color: #808080;
+}
+
+.ch-caption p {
+    color: #808080;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+.ch-time{
+    position: absolute;
+    bottom: 5px;
+    right: 30px;
+    color: #808080;
+}
+.ch-img {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.left-50-stack {
+    float:left;
+    width: 50%;
+    padding: 10px;
+}
+
+.right-50-stack {
+    float:right;
+    width: 50%;
+    padding: 10px;
+
+}
+
+.spacer {
+    height: 200px;
+}
+
+.spacer-s {
+    height: 40px;
+}
